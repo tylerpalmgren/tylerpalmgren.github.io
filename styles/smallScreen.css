@@ -1,0 +1,13 @@
+/*
+This stylesheet should be used with media="(max-width: 991px).
+*/
+
+/* Hides element on small. !important to override bootstrap. */
+a.hideOnSmall,
+.hideOnSmall {
+	display: none;
+}
+
+/* a.hideOnLarge { */
+	/* display: inline-block!important; */
+/* } */

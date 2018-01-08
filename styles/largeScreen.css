@@ -1,0 +1,9 @@
+/*
+This stylesheet should be used with media="(min-width: 992px).
+*/
+
+/* Hides element on large. */
+.hideOnLarge,
+a.hideOnLarge {
+	display: none;
+}
