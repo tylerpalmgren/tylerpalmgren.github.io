@@ -10,6 +10,6 @@ a.margin-right-none {
 	margin-right: 0;
 }
 
-.thumbnail {
+.gallerytest2 .thumbnail { /*remove later. only for checking margins in gallerytest2. */
 	margin-bottom: 30px;
 }
