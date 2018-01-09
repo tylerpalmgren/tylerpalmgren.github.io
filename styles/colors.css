@@ -1,0 +1,35 @@
+/*
+light pinkish: #DCD0C0
+off-white: #F4F4F4
+dark: #373737
+*/
+
+/* changes default colors (background color, text color, etc). !important to override bootstrap. */
+body {
+	background-color: #373737!important;
+	color: #F4F4F4!important;
+}
+
+/* sets colors for background and text of navbar. */
+nav.dark-navbar {
+	background-color: #F4F4F4;
+	color: #373737;
+}
+
+/* START link colors */
+nav.dark-navbar a {
+	color: #373737;
+}
+
+nav.dark-navbar a:hover {
+	/*must be slightly changed color.*/
+}
+
+nav.dark-navbar a:active {
+	/*must be slightly more changed color.*/
+}
+/* END link colors*/
+
+/*
+Need to add a class for current page link. e.g. when you are on link1, link1 in navbar should be slightly different color.
+*/
