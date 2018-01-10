@@ -21,15 +21,17 @@ nav.dark-navbar a {
 	color: #373737;
 }
 
+nav.dark-navbar li.active a { /*the page you are on will be a different color so you know where you are*/
+	color: #373737; /*change the color*/
+}
+
 nav.dark-navbar a:hover {
+	color: #373737; /*change the color*/
 	/*must be slightly changed color.*/
 }
 
 nav.dark-navbar a:active {
+	color: #373737; /*change the color*/
 	/*must be slightly more changed color.*/
 }
 /* END link colors*/
-
-/*
-Need to add a class for current page link. e.g. when you are on link1, link1 in navbar should be slightly different color.
-*/
