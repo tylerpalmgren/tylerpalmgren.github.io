@@ -13,3 +13,5 @@ a.margin-right-none {
 .gallerytest2 .thumbnail { /*remove later. only for checking margins in gallerytest2. */
 	margin-bottom: 30px;
 }
+
+/*ADD a margin spacing at top of body to move below navbar*/
