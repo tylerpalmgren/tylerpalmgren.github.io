@@ -1,0 +1,42 @@
+/*
+light pinkish: #DCD0C0
+off-white: #F4F4F4
+dark: #373737
+*/
+
+/* changes default colors (background color, text color, etc). !important to override bootstrap. */
+body {
+	background-color: #373737!important;
+	color: #F4F4F4!important;
+}
+
+/* sets colors for background and text of navbar. */
+nav.navbar-dark {
+	background-color: #F4F4F4;
+	color: #373737!important;
+}
+
+/* START link colors */
+nav.navbar-dark a {
+	color: #373737!important;
+}
+
+nav.navbar-dark li.active a { /*the page you are on will be a different color so you know where you are*/
+	color: #373737!important; /*change the color*/
+}
+
+nav.navbar-dark a:hover {
+	color: #373737!important; /*change the color*/
+	/*must be slightly changed color.*/
+}
+
+nav.navbar-dark a:active {
+	color: #373737!important; /*change the color*/
+	/*must be slightly more changed color.*/
+}
+/* END link colors*/
+
+/*color of the menu collapse button background*/
+nav.navbar-dark button.navbar-toggler {
+	background-color: #373737;
+}
