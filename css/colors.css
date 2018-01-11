@@ -11,27 +11,32 @@ body {
 }
 
 /* sets colors for background and text of navbar. */
-nav.dark-navbar {
+nav.navbar-dark {
 	background-color: #F4F4F4;
-	color: #373737;
+	color: #373737!important;
 }
 
 /* START link colors */
-nav.dark-navbar a {
-	color: #373737;
+nav.navbar-dark a {
+	color: #373737!important;
 }
 
-nav.dark-navbar li.active a { /*the page you are on will be a different color so you know where you are*/
-	color: #373737; /*change the color*/
+nav.navbar-dark li.active a { /*the page you are on will be a different color so you know where you are*/
+	color: #373737!important; /*change the color*/
 }
 
-nav.dark-navbar a:hover {
-	color: #373737; /*change the color*/
+nav.navbar-dark a:hover {
+	color: #373737!important; /*change the color*/
 	/*must be slightly changed color.*/
 }
 
-nav.dark-navbar a:active {
-	color: #373737; /*change the color*/
+nav.navbar-dark a:active {
+	color: #373737!important; /*change the color*/
 	/*must be slightly more changed color.*/
 }
 /* END link colors*/
+
+/*color of the menu collapse button background*/
+nav.navbar-dark button.navbar-toggler {
+	background-color: #373737;
+}
