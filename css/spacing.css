@@ -1,5 +1,4 @@
 /*
-
 */
 
 a.padding-5 {
@@ -10,6 +9,11 @@ a.margin-right-none {
 	margin-right: 0;
 }
 
-.gallerytest2 .thumbnail { /*remove later. only for checking margins in gallerytest2. */
+.thumbnail { /*remove later. only for checking margins in gallerytest2. */
 	margin-bottom: 30px;
+}
+
+/*margin spacing in div with content to move below navbar*/
+div.under-navbar {
+	margin-top: 73px;
 }
