@@ -36,7 +36,7 @@ nav.navbar-dark a:active {
 }
 /* END link colors*/
 
-/*color of the menu collapse button*/
-nav.navbar-dark button.navbar-toggler span.icon-dark {
-	color: #373737!important;
+/*color of the menu collapse button background*/
+nav.navbar-dark button.navbar-toggler {
+	background-color: #373737;
 }
