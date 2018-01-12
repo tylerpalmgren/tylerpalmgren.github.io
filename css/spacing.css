@@ -22,3 +22,7 @@ div.under-navbar {
 .gallery {
 	padding-top: 12px;
 }
+
+a.main-title {
+	padding: 2px 5px 0 5px;
+}
