@@ -22,17 +22,15 @@ nav.navbar-dark a {
 }
 
 nav.navbar-dark li.active a { /*the page you are on will be a different color so you know where you are*/
-	color: #373737!important; /*change the color*/
+	color: #C0B283!important; /*change the color*/
 }
 
-nav.navbar-dark a:hover {
-	color: #373737!important; /*change the color*/
-	/*must be slightly changed color.*/
+nav.navbar-dark a:hover { /*underlines on hover*/
+	text-decoration: underline;
 }
 
-nav.navbar-dark a:active {
-	color: #373737!important; /*change the color*/
-	/*must be slightly more changed color.*/
+nav.navbar-dark a:active { /*nothing currently applying. do we want to make it a different color on :active?*/
+	/*color: #373737!important;*/
 }
 /* END link colors*/
 
