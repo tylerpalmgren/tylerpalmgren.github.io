@@ -4,6 +4,12 @@ off-white: #F4F4F4
 dark: #373737
 */
 
+/* font for site title */
+.site-title {
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size: 125%;
+}
+
 /* changes default colors (background color, text color, etc). !important to override bootstrap. */
 body {
 	background-color: #373737!important;
