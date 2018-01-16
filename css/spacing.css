@@ -9,10 +9,6 @@ a.margin-right-none {
 	margin-right: 0;
 }
 
-.thumbnail { /* margins in gallerytest2. */
-	margin-bottom: 30px;
-}
-
 /*margin spacing in div with content to move below navbar*/
 div.under-navbar {
 	margin-top: 73px;
@@ -24,4 +20,11 @@ div.under-navbar {
 
 a.main-title {
 	padding: 2px 5px 0 5px;
+}
+
+/*
+styles to apply to images
+*/
+.thumbnail { /* margins in gallerytest2. */
+	margin-bottom: 30px;
 }
