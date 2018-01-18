@@ -45,3 +45,9 @@ nav.navbar-dark a:active { /*nothing currently applying. do we want to make it a
 nav.navbar-dark button.navbar-toggler {
 	background-color: #373737;
 }
+
+/*styling for accented color links*/
+a.accent-color, a.accent-color:hover, a.accent-color:active {
+	color: #e8cfae;
+}
+/*END styles for accented color links*/
