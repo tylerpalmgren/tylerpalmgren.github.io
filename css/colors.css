@@ -27,7 +27,8 @@ nav.navbar-dark a {
 	color: #373737!important;
 }
 
-nav.navbar-dark li.active a { /*the page you are on will be a different color so you know where you are*/
+nav.navbar-dark li.active a,
+a.navbar-brand.main-title.active span.site-title { /*the page you are on will be a different color so you know where you are*/
 	color: #C0B283!important; /*change the color*/
 }
 
