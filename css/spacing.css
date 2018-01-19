@@ -28,3 +28,7 @@ styles to apply to images
 .thumbnail { /* margins in gallerytest2. */
 	margin-bottom: 30px;
 }
+
+.thumbnail div img {
+	width: 100%;
+}
