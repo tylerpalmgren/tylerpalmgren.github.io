@@ -7,3 +7,7 @@ This stylesheet should be used with media="(min-width: 992px).
 a.hideOnLarge {
 	display: none;
 }
+
+.Scroll{
+	Overflow:hidden;
+}
